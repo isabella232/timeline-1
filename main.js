@@ -291,7 +291,7 @@
 	 * should be the same-ish as export in 'data/data.csv'
 	 * propending the url here with a heroku proxy to pull data from google sheets
 	 */
-	var csvURL = 'http://guarded-ocean-2049.herokuapp.com/https://docs.google.com/spreadsheet/pub?key=1IHocOhSxwA9XkO6rznmetSz_ATBIAPHgms4htOEd-tk&single=true&gid=0&output=csv';
+	var csvURL = 'http://guarded-ocean-2049.herokuapp.com/https://docs.google.com/spreadsheet/pub?key=1fZiBunQVeEWIL_TACc0qGIwa0Dsr30YZp2qMouCUWok&single=true&gid=0&output=csv';
 	
 
 	d3.csv(csvURL, function(csv) {
